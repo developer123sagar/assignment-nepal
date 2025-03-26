@@ -20,7 +20,7 @@ axiosInstance.interceptors.request.use(
   }
 );
 
-// Response interceptor
+// Response interceptor in api
 axiosInstance.interceptors.response.use(
   (response) => {
     return response;
